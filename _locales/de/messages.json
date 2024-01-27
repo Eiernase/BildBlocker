@@ -1,0 +1,10 @@
+{
+    "extensionDescription": {
+        "message": "Blockiert alle Inhalte im Zusammenhang mit der BILD-Zeitung.",
+        "description": "Description of the extension."
+    },
+    "actionTitle": {
+        "message": "Details anzeigen",
+        "description": "Tooltip when hovering the extension in the toolbar."
+    }
+}

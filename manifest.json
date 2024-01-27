@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "BILD Blocker",
+    "version": "1.0.0.0",
+    "description": "__MSG_extensionDescription__",
+    "author": "Eiernase",
+    "homepage_url": "https://github.com/Eiernase/BildBlocker",
+    "default_locale": "de",
+    "options_page": "options.html",
+    "action": {
+        "default_title": "__MSG_actionTitle__",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "48": "images/icon-48.png",
+        "96": "images/icon-96.png",
+        "128": "images/icon-128.png"
+    },
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "service_worker.js"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/content.js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ],
+    "update_url": "https://kueheaufdsl.de/updates2.xml",
+    "key": "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCh8RY8VARNk7StI1N/WKZlIWw7P/wtjnat9+x1BMG0KmzR2lO8a6KF7f6A4kFi3Yo4kVXNRx+wLj0eRHQAAcTkxrwYeLnN+9sFtEwpectvQKIcayICubYWqJoANcKjhV/fgJoLBu0OHPEtOQ1nMgKblIf/GsZJZrNjVji8gl6WmDsiivqKM1If1wt3ot5+sX3oVNT4ZYK/sKQdIOLN1quHicGICNjw99wUZXdmg0mBq+f+S+LzT7onLMncVLMblCsupMnP7T0lsZ3t1smbjd7JCgUUupBigaUS8VdwrYegVyftHOTKc5upMPxnER/Nx2ekJcplcoUfemQ8vWLWuylzAgMBAAECggEAK65ZhpVNAdXlJsyAEboKS/4LcSHttiYW2g8lP100mJHW/3XqH0lTMdgDzaT56R6D0YVWRQQ5xm56eucQ+Q2BHAqFIv6xc5/LMMs0vf1Fw/EFqS+2oVCRjqQUwhi+MxhfR2yrYG0SVTu2TDH27Q5+yJN0aXnB4XuryJAxxptNw0XHuTwErq6Uj6O05/+edVsfWtWBKca7/2Fow7uezO8tgDB4lo6KIJRdtcbcu8TawYY3/3YmrNTParoaFB1688fPdsEjTqu6yR9S39+fx3FFBVPmUg+oCKxoOArTTctIRcYbAtxryb11rP082MdK7xVZhik3SO+bs3LtaF7KolhPMQKBgQDVrPRT/Xg2gQMUKBKpK42PV22xgQi4HxAKD5k7TcC0m3xllTpNwpQfCqcuOC2+O9l78jBXRHjzwBx/zPZtDMON+WGaiy/QOIoFLQThgOyWyf9yB3480OAEb54qDnbT5aOG0Qzk4OM2FCaKLZoq7TBjXQby7CLyrrElZrenOZrlwwKBgQDCBNDrOenfe2bjq7AtX+tVnHCImFTdtnAojs1lyfUKlxL1pkE4svR+QCoYOUfyA8sHYeqq//cwTKQ60njPdNHxX+qxgyfNJRTUFsw4ayILsW9i84ukKXNya6CxVssq1yGIsajHfyJyIZ2j8nV9psDRCMJEr3ALlDxEsIbDvkaCkQKBgQCHviJRoTrXVUpBadvBANwjbeVP2KtTXNhxq8sqs5ByrDxwxEaP08cJmVjvsdzNd3QIm6k+J0+3ehogznLWgD9TWFQ7O6UaYHC+LQVmxOKIQLc5F62IsSE/cDFIgnvWzZH/OZs5Y+y0FEUPjzzbfGc7GIQrmvvwtC3xlrmhUKUoxQKBgQCdD4MEeNxvkpkHAwxanwSGSF785LwGw1JmMrvpg6S/Tu8FNvIjcRLlRRIOjAhGzXVE46oxhYZYbiKgj5NG9Z2ilXALBU5qDnOfAVmO7oMgDiJKazeGzBtt69yo0scjRgYafx9PaAa9d6MCfhtIfX4nebyyF4dPiE+Fl5Vwzg6MUQKBgE01Ar9B77caOGkG3wxojPntB8OPstpEtHxD06uube/tVhjMc3BClF+S7sbxfkMzBu2mP+7l+pCoJe5obmsnQYBzQD833/rgDTXtDqi9EddiBJxXoZWed7aNzfbMM/kEKG1BUad9x44N4qe4FetILOhEP5bS35917BLzF/rCRIJb"
+}

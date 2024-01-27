@@ -1,0 +1,46 @@
+{
+    "extensionDescription": {
+        "message": "Blocks out all content related to the BILD newspaper",
+        "description": "Description of the extension."
+    },
+    "actionTitle": {
+        "message": "Open Details",
+        "description": "Tooltip when hovering the extension in the toolbar."
+    },
+    "optionsTitle": {
+        "message": "Options - BILD Blocker",
+        "description": "Provides title for the options page."
+    },
+    "optionsHeader": {
+        "message": "List of blocked pages",
+        "description": "Provides header for the options page."
+    },
+    "optionsSaveButton": {
+        "message": "Save",
+        "description": "Provides save button label for the options page."
+    },
+    "optionsButton": {
+        "message": "Configure Block List",
+        "description": "Label for button in popup"
+    },
+    "info": {
+        "message": "Blocks pages from BILD, removes them from Google search results and turns references into harmless placeholders.",
+        "description": "Description in popup"
+    },
+    "saved": {
+        "message": "You just got saved from exposure to an unwanted website!",
+        "description": "Message on block screen"
+    },
+    "title": {
+        "message": "Saved!",
+        "description": "Window title of block screen"
+    },
+    "blockPromotion": {
+        "message": "BILD Blocker &ndash; For a more pleasant browsing experience",
+        "description": "Second line on block screen"
+    },
+    "supportCause": {
+        "message": "Support a good cause like this one!",
+        "description": "Donation message on block screen"
+    }
+}
